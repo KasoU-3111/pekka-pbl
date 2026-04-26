@@ -2,7 +2,7 @@ import Reveal from "./Reveal";
 
 const stats = [
   { k: "Growing", v: "Community of thinkers" },
-  { k: "10k+", v: "Followers and counting" },
+  { k: "2k+", v: "Followers and counting" },
   { k: "Daily", v: "Insights, zero noise" },
 ];
 

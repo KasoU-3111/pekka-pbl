@@ -1,7 +1,7 @@
-import { Instagram } from "lucide-react";
+import { Instagram, Youtube } from "lucide-react";
 
 const INSTAGRAM_URL = "https://www.instagram.com/firstprinciples.hq";
-
+const YOUTUBE_URL = "https://www.youtube.com/@thefirstprinciplespodcast";
 const Footer = () => {
   return (
     <footer className="relative border-t border-border/60 py-10">
@@ -20,6 +20,9 @@ const Footer = () => {
           className="inline-flex items-center gap-2 hover:text-foreground transition-colors"
         >
           <Instagram className="h-4 w-4" />
+          @firstprinciples.hq
+
+          <Youtube className="h-4 w-4" />
           @firstprinciples.hq
         </a>
 
