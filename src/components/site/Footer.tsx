@@ -21,7 +21,13 @@ const Footer = () => {
         >
           <Instagram className="h-4 w-4" />
           @firstprinciples.hq
-
+        </a>
+        <a
+          href={YOUTUBE_URL}
+          target="_blank"
+          rel="noreferrer noopener"
+          className="inline-flex items-center gap-2 hover:text-foreground transition-colors"
+        >
           <Youtube className="h-4 w-4" />
           @firstprinciples.hq
         </a>
